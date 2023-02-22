@@ -60,7 +60,7 @@ public class VideoQuery {
         query = String.format("%s %s %s %s %s",
                 season, time, feeling, label, PLAYLIST_KR);
 
-        LOGGER.info("[생성된 검색어]: " + query);
+        LOGGER.warn("[생성된 검색어]: " + query);
 
         return query;
     }
@@ -78,7 +78,7 @@ public class VideoQuery {
         query = String.format("%s %s",
                 label, PLAYLIST_KR);
 
-        LOGGER.info("[생성된 검색어]: " + query);
+        LOGGER.warn("[생성된 검색어]: " + query);
 
         return query;
     }
@@ -98,7 +98,7 @@ public class VideoQuery {
         query = String.format("%s %s %s %s",
                 season, time, feeling, PLAYLIST_KR);
 
-        LOGGER.info("[생성된 검색어]: " + query);
+        LOGGER.warn("[생성된 검색어]: " + query);
 
         return query;
     }
