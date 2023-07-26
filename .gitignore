@@ -10,7 +10,10 @@ capturedImgs/*
 
 ### switch for profile
 src/main/resources/application.properties
+src/main/resources/application-local.properties
+src/main/resources/application-test.properties
 src/main/resources/application-prod.properties
+test.mv.db
 
 ## scripts
 /**.py
